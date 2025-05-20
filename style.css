@@ -8,6 +8,10 @@ html, body{
 .menu {
     background-color: #05313E;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .menu ul {
@@ -128,6 +132,6 @@ a:hover{
   background-color: #1C4754;
 }
 
-.msg-display{
+.msg-display p{
     text-align: center;
 }
