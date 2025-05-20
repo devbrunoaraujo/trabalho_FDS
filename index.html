@@ -5,22 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Meu site</title>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#bio">Bio</a></li>
+            <li><a href="#msg">Mensagem</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#countries">Países</a></li>
+            <li><a href="#site">Site</a></li>
+        </ul>
+    </nav>
 
     <!--Titulo com o nome-->
     <h1>Bruno Pinto Araújo</h1>
     <hr>
 
     <!--Parágrafo com uma curta biografia-->
-    <h2>Biografia</h2>
+    <h2 id="bio">Biografia</h2>
     <div class="box">
-         <p>Sou apaixonado por games, leitura e tecnologia.
+         <p>Me chamo Bruno, tenho 35 anos e moro em Bagé-RS. Sou apaixonado por games, leitura e tecnologia.
         No tempo livre, gosto de ler livros e ver vídeos que agreguem conhecimento.
          Sou autodidata em programação, sempre buscando aprender novas linguagens, ferramentas e resolver desafios por conta própria.</p>
+    </div>
+
+
+    <!--Botão para disparar mensagem-->
+    <div id="msg" class="msg">
+        <button id="btn-action" class="btn-msg">Clique aqui para ver uma mensagem!</button>
+        <div id="msg-display" class="box msg-display" style="display: none;">
+            <p>"Bons programadores escrevem códigos que os humanos entendam." – Martin Fowler</p>
+        </div>
     </div>
    
     
     <!--Lista não ordenada com hobbies-->
-    <h2>Hobbies</h2>
+    <h2 id="hobbies">Hobbies</h2>
     <ul class="box">
         <li>Jogar games</li>
         <li>Ler</li>
@@ -33,8 +53,9 @@
         <img src="img/game.png" alt="">
     </div>
 
+
     <!--Tabela com os países que gostaria de visitar-->
-    <h2>Países</h2>
+    <h2 id="countries">Países</h2>
     <div class="box">
         <table>
         <thead>
@@ -60,14 +81,14 @@
     </table>
     </div>
 
+
     <!--Link para o site-->
-    <h2>Site favorito</h2>
+    <h2 id="site">Site favorito</h2>
     <div class="box">
         <a href="https://xbox.com" target="_blank">Xcloud</a>
     </div>
 
-</head>
-<body>
-    
+
+<script src="script.js"></script>   
 </body>
 </html>
