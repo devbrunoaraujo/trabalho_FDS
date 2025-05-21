@@ -50,6 +50,12 @@ html, body{
 h1, h2{
     text-align: center;
     color: #05313E;
+    margin-top: 50px;
+}
+
+.title{
+    margin-top: 100px;
+    font-weight: 800;
 }
 
 .box p{
